@@ -1,0 +1,2 @@
+/api/* https://dbsa-ecommerce-website-2.onrender.com/:splat 200
+/uploads/* https://dbsa-ecommerce-website-2.onrender.com/uploads/:splat 200
