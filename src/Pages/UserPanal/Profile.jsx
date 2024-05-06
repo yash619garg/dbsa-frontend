@@ -34,8 +34,12 @@ const Profile = () => {
         password,
         _id: userInfo._id,
       }).unwrap();
-      console.log(res);
-    } catch (error) {}
+      if (!res.error) {
+        toast.success("profile updated successfully");
+      }
+    } catch (error) {
+      toast.error(error);
+    }
   };
 
   // const updateProfileHandler = async () => {

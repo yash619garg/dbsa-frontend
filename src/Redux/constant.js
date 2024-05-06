@@ -1,4 +1,4 @@
-export const BASE_URL = "https://dbsa-ecommerce-website-2.onrender.com";
+export const BASE_URL = "";
 export const user_url = "/api/users"
 export const category_url = '/api/category'
 export const PRODUCT_URL = "/api/product"
